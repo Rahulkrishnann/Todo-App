@@ -74,11 +74,4 @@ deleteAll.onclick = ()=>{
 
 
 
-//timer
-function countdown(){
-    var now = new Date();
-    var eventDate = new Date(userData);
-    var currenttime = now.getTime();
-    var eventTime = eventDate.getTime();
-    var remTime = eventTime - currenttime;
-}
+
